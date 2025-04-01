@@ -283,7 +283,7 @@ section {
 .service-card h3 {
     font-size: 1.4rem;
     margin-bottom: 15px;
-    color: var(--text-color);
+    color: var(--dark-bg);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
