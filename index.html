@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Web Development Consultant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Akpiti<span>Emmanuel</span></a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Building Digital Experiences That Matter</h1>
+                <p class="subtitle">Web Development Consultant helping businesses transform their digital presence</p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/images/pexels-fauxels-3183150.jpg" alt="Web Developer Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <p class="section-subtitle">Comprehensive web development solutions tailored to your needs</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Custom Web Development</h3>
+                    <p>Bespoke websites built from scratch to match your exact requirements and business objectives.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Solutions</h3>
+                    <p>Online stores with secure payment gateways, inventory management, and customer portals.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Speed enhancements and technical improvements to boost your site's performance.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Implementation</h3>
+                    <p>Search engine optimization built into your website's foundation for better visibility.</p>
+                </div>
+            </div>
+                
+               
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A selection of my recent web development work</p>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Websites</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                <button class="filter-btn" data-filter="webapp">Web Apps</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="/images/pexels-jan-van-der-wolf-11680885-31389386.jpg" alt="Corporate Website Project">
+                        <div class="portfolio-overlay">
+                            <h3>Corporate Website</h3>
+                            <p>Modern design with CMS integration</p>
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-img">
+                        <img src="images/pexels-asphotograpy-230544.jpg" alt="Online Store Project">
+                        <div class="portfolio-overlay">
+                            <h3>Fashion E-Commerce</h3>
+                            <p>WooCommerce implementation with custom features</p>
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="webapp">
+                    <div class="portfolio-img">
+                        <img src="/images/IMG_20250331_215805.jpg" alt="Web Application Project">
+                        <div class="portfolio-overlay">
+                            <h3>Task Management App</h3>
+                            <p>React-based application with Firebase backend</p>
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="images/pexels-rdne-6647119 (1).jpg" alt="Nonprofit Website Project">
+                        <div class="portfolio-overlay">
+                            <h3>Nonprofit Organization</h3>
+                            <p>Donation system integration</p>
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-img">
+                        <img src="images/pexels-mart-production-7667442.jpg" alt="Online Store Project">
+                        <div class="portfolio-overlay">
+                            <h3>Electronics Store</h3>
+                            <p>Custom Shopify theme development</p>
+                            <a href="#" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="webapp">
+                    <div class="portfolio-img">
+                        <img src="/images/pexels-eye4dtail-129494.jpg" alt="Web Application Project">
+                        <div class="portfolio-overlay">
+                            <h3>Real Estate Portal</h3>
+                            <p>Property search with interactive maps</p>
+                            <a href=" https://terhemen001.github.io/realestate/ " class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <a href="#" class="btn primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Professional web development consultant with a passion for creating digital solutions</p>
+                
+                <div class="about-text">
+                    <p>With over 8 years of experience in web development, I specialize in creating high-performance, user-friendly websites and web applications that drive business growth.</p>
+                    
+                    <p>My approach combines technical expertise with a deep understanding of user experience and business objectives. I believe in building websites that not only look great but also deliver measurable results.</p>
+                    
+                    <p>I stay at the forefront of web technologies and best practices to ensure my clients receive modern, future-proof solutions.</p>
+                </div>
+                
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="80"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <span class="skill-name">PHP/WordPress</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-cta">
+                    <a href="#contact" class="btn primary">Let's Work Together</a>
+                    <a href="#" class="btn secondary">Download CV</a>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <img src="/images/1737718348026.jpg" alt="Your Name - Web Development Consultant">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What my clients say about my work</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">Working with Emmanuel was an absolute pleasure. They delivered our e-commerce site ahead of schedule and it has significantly increased our online sales. Their attention to detail and technical expertise are unmatched.</p>
+                        <div class="testimonial-author">
+                            <img src="images/human.png" alt="Sarah Johnson">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, Fashion Boutique</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">Our corporate website redesign was a complex project with many stakeholders. Emmanuel managed the process professionally and delivered a site that exceeded all our expectations. Highly recommended!</p>
+                        <div class="testimonial-author">
+                            <img src="images/manager.png" alt="Client Name">
+                            <div class="author-info">
+                                <h4>Michael Brown</h4>
+                                <p>Marketing Director, Tech Company</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">The web application developed for our business has transformed our operations. They took the time to understand our needs and created a solution that's both powerful and easy to use.</p>
+                        <div class="testimonial-author">
+                            <img src="/images/person.png" alt="Client Name">
+                            <div class="author-info">
+                                <h4>David Wilson</h4>
+                                <p>Operations Manager, Logistics Firm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to start your project? Contact me today</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Location</h3>
+                            <p>Abuja, Nigeria</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email</h3>
+                            <p>akpitiemmanuel3@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone</h3>
+                            <p>+234 9075328722</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject">
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <a href="#">Akpiti<span>Emmanuel</span></a>
+                    </div>
+                    <p>Professional web development consultant creating digital solutions that drive business growth.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Custom Web Development</a></li>
+                        <li><a href="#">Responsive Design</a></li>
+                        <li><a href="#">E-Commerce Solutions</a></li>
+                        <li><a href="#">Performance Optimization</a></li>
+                        <li><a href="#">SEO Implementation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Abuja, Nigeria</li>
+                        <li><i class="fas fa-envelope"></i> akpitiemmanuel3@gmail.com</li>
+                        <li><i class="fas fa-phone-alt"></i> +234 9075328722</li>
+                    </ul>
+                </div>
+            </div>
+
+          
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 AkpitiEmmanuel. All Rights Reserved.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href=" https://www.linkedin.com/in/emmanuel-terhemen-209448358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fab fa-linkedin-in"></i></a>
+                    <a href="  "><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/2349075328722" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+    <script src="index.js"></script>
+</body>
+</html>
